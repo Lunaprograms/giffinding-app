@@ -4,6 +4,7 @@ export const GifExpertApp = () => {
   const [categories, setCategories] = useState([]);
 
   const onSubmitValue = (newCategory) => {
+    if (categories.includes(newCategory)) return;
     setCategories([newCategory, ...categories]);
   };
 
