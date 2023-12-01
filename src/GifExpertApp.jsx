@@ -12,7 +12,7 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <h1>giiffffff</h1>
+      <h1>GIF BASIC APP</h1>
       <AddCategory onSubmitValue={onSubmitValue} />
 
       {categories.map((category) => (
