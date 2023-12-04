@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// eslint-disable-next-line react/prop-types
 export const AddCategory = ({ onSubmitValue }) => {
   const [inputValue, setInputValue] = useState("");
 
@@ -21,6 +22,7 @@ export const AddCategory = ({ onSubmitValue }) => {
         placeholder="BUSCAR GIFS"
         value={inputValue}
         onChange={onInputChange}
+        id={inputValue}
       />
     </form>
   );

@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 export const GifItem = ({ title, url }) => {
   console.log(title, url);
   return (
