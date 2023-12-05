@@ -8,10 +8,10 @@ export const GifExpertApp = () => {
     if (categories.includes(newCategory)) return;
     setCategories([newCategory, ...categories]);
   };
-
+  const myTitle = "LUNITA  GIFFINDING  APP";
   return (
     <>
-      <h1>GIF BASIC APP</h1>
+      <h1>{myTitle}</h1>
       <AddCategory onSubmitValue={onSubmitValue} />
 
       {categories.map((category) => (
